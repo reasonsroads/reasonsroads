@@ -6,7 +6,7 @@
 		
 		body {
  			 overflow: hidden; /* Hide scrollbars */
-			 color: black;
+			 background-color: black;
 		}
 		html,body {
 			background-color: #333;
@@ -35,6 +35,16 @@
 			width: 100%;
 			position: absolute;
 			overflow: hidden;
+			z-index: 2;
+	}
+	#wrapper2 {
+			top: 0;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			overflow: hidden;
+			background-color: black;
+			z-index: -1;
 	}
 	</style>
 
@@ -44,6 +54,7 @@
 <body>
 	<canvas id="canvas"></canvas>
 </body>
+<div id="wrapper2"></div>
 </html>
 </div>
 <!-- 
