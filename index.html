@@ -24,8 +24,7 @@
             top: 0;
             bottom: 0;
             margin: auto;
-            border: 1px solid #555;
-            background-color: red;
+            background-color: black;
             width:100%;
             height:100%;
         }
@@ -35,28 +34,20 @@
 			width: 100%;
 			position: absolute;
 			overflow: hidden;
-			z-index: 2;
-	}
-	#wrapper2 {
-			top: 0;
-			height: 100%;
-			width: 100%;
-			position: absolute;
-			overflow: hidden;
-			background-color: black;
-			z-index: -1;
+			color: black;
+			z-index: 3;
 	}
 	</style>
 
 	<script type="text/javascript" src="lib/impact/impact.js"></script>
 	<script type="text/javascript" src="lib/game/main.js"></script>
-</head><div id="wrapdper">
+</head>
 <body>
 	<canvas id="canvas"></canvas>
 </body>
-<div id="wrapper2"></div>
+<div id="wrapper"></div>
 </html>
-</div>
+
 <!-- 
 1. git add .
 2. git commit -m "messageof change etc"
