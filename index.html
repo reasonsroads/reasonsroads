@@ -13,23 +13,34 @@
 		}
 		
 		#canvas {
-			position: absolute;
-			left: 0;
-			right: 0;
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border: 1px solid #555;
+            background-color: red;
+            width:100%;
+            height:100%;
+        }
+		#wrapper {
 			top: 0;
-			bottom: 0;
-			margin: auto;
-		}
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			overflow: hidden;
+	}
 	</style>
 
 	<script type="text/javascript" src="lib/impact/impact.js"></script>
 	<script type="text/javascript" src="lib/game/main.js"></script>
-</head>
+</head><div id="wrapper">
 <body>
 	<canvas id="canvas"></canvas>
 </body>
 </html>
-
+</div>
 <!-- 
 1. git add .
 2. git commit -m "messageof change etc"
