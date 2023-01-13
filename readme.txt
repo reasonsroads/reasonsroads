@@ -3,6 +3,7 @@ HOW TO EDIT
 There's a lot to edit on each level.
 1. Each level must have a level(ie level: 1, 2, etc)
     - level number in main.js counts the "total active weapons."
+    - add level name to main.js
     - some levels may have different delays. This is both in firing delay and correlating animation.
 2. Weapons
     - Weapons rotate up and down, so they will be shown twice.
