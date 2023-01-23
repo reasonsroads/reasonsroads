@@ -9,8 +9,11 @@ There's a lot to edit on each level.
     - Weapons rotate up and down, so they will be shown twice.
 3. Shifting from scroll to top-down
     - different "MyGame" screen. Can't go directly from dorm 1 -> pong
+    - edit "levelexit" to change direction to game mode
 
 
 dorm 1 > dorm 4 > exit level > mygame2 > pong > pong2
+
+
 
 tesxttdfsjl
