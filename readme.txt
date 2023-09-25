@@ -16,4 +16,8 @@ dorm 1 > dorm 4 > exit level > mygame2 > pong > pong2
 
 
 
-tesxttdfsjl
+connecting vsc to github
+- on left, source code. commit. add message. push
+git add .
+git commit -m "test2"
+git push
